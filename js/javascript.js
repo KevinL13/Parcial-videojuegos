@@ -4,18 +4,18 @@ class Escena extends Phaser.Scene {
       //this.load.baseURL = '/curso/phaser/ex/flappy-bird/';
       resize();
       window.addEventListener('resize', resize, false);
-      this.load.image('fondo', '../img/espacio.jpg');
-      this.load.spritesheet('heroe', '../img/heroe.png', {
+      this.load.image('fondo', '../img/espacioPP.jpg');
+      this.load.spritesheet('heroe', '../img/heroeP.png', {
           frameWidth: 50,
           frameHeight: 50
       });
-      this.load.image('pipe0', '../img/pipe0.png');
-      this.load.image('pipeAbajo0', '../img/pipeAbajo0.png');
-      this.load.image('pipeArriba0', '../img/pipeArriba0.png');
+      this.load.image('pipe0', '../img/pipe0.jpeg');
+      this.load.image('pipeAbajo0', '../img/pipeAbajo0.jpeg');
+      this.load.image('pipeArriba0', '../img/pipeArriba0.jpeg');
 
-      this.load.image('pipe1', '../img/pipe1.png');
-      this.load.image('pipeAbajo1', '../img/pipeAbajo1.png');
-      this.load.image('pipeArriba1', '../img/pipeArriba1.png');
+      this.load.image('pipe1', '../img/pipe1.jpeg');
+      this.load.image('pipeAbajo1', '../img/pipeAbajo1.jpeg');
+      this.load.image('pipeArriba1', '../img/pipeArriba1.jpeg');
 
   }
 
@@ -123,7 +123,7 @@ class PerderEscena extends Phaser.Scene {
   }
 
   preload() {
-      this.load.image('perder', '../img/perder-juego.jpg');
+      this.load.image('perder', '../img/perder-juegoPPP.png');
   }
 
   create() {

@@ -1,2 +1,2 @@
 # Parcial-videojuegos
-Enlace video:
+Enlace video: https://youtu.be/t12jxQTwgc0
